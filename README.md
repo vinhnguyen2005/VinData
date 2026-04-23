@@ -67,9 +67,9 @@ Link: https://www.kaggle.com/competitions/datathon-2026-round-1
 
 | Task | Notebook / File | Người phụ trách | Deadline |
 |------|----------------|-----------------|----------|
-| Tiền xử lý data | 01_preprocessing.ipynb | ... | ... |
-| EDA & Visualization | 02_EDA.ipynb | ... | ... |
-| Feature Engineering | 03_feature_engineering.ipynb | ... | ... |
-| Modelling | 04_modelling.ipynb | ... | ... |
-| SHAP & Explain | 05_explain_model.ipynb | ... | ... |
-| Báo cáo LaTeX | docs/ | ... | ... |
+| Tiền xử lý data | 01_preprocessing.ipynb | Nga | ... |
+| EDA & Visualization | 02_EDA.ipynb | Dũng | ... |
+| Feature Engineering | 03_feature_engineering.ipynb | Vinh | ... |
+| Modelling | 04_modelling.ipynb | Vinh & Hoàn | ... |
+| SHAP & Explain | 05_explain_model.ipynb | Hoàn | ... |
+| Báo cáo LaTeX | docs/ | Team | ... |
