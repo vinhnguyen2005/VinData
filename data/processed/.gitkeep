@@ -1,0 +1,7 @@
+# Thư mục chứa các file dữ liệu đã qua xử lý (output của notebook 01 & 03):
+#   - merged_orders.parquet      : orders đã join với customers, geography
+#   - sales_features.parquet     : tập train đã engineering xong cho mô hình
+#   - sales_test_features.parquet: tập test với cùng feature schema
+#
+# File được tạo tự động bởi notebook 01_preprocessing & 03_feature_engineering.
+# ⚠️  Không commit file lớn lên GitHub.

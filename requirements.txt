@@ -1,0 +1,32 @@
+# Datathon 2026 — The Gridbreakers
+# Cài đặt: pip install -r requirements.txt
+
+# Data
+pandas>=2.0
+numpy>=1.24
+pyarrow>=12.0          # đọc/ghi parquet
+
+# Machine Learning
+scikit-learn>=1.3
+xgboost>=2.0
+lightgbm>=4.0
+statsmodels>=0.14      # SARIMA, seasonal_decompose
+
+# Explainability
+shap>=0.44
+
+# Visualization
+matplotlib>=3.7
+seaborn>=0.12
+plotly>=5.18           # interactive charts
+
+# Dashboard (optional)
+streamlit>=1.30
+
+# Notebook
+jupyterlab>=4.0
+ipykernel
+
+# Utility
+joblib>=1.3
+python-dotenv

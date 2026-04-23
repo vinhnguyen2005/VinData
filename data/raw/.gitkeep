@@ -1,0 +1,8 @@
+# Thư mục này chứa toàn bộ file CSV gốc được cấp bởi ban tổ chức:
+#   products.csv, customers.csv, promotions.csv, geography.csv
+#   orders.csv, order_items.csv, payments.csv, shipments.csv
+#   returns.csv, reviews.csv, sales.csv, inventory.csv, web_traffic.csv
+#   sample_submission.csv
+#
+# ⚠️  KHÔNG commit các file CSV lên GitHub (đã được thêm vào .gitignore).
+#     Mỗi thành viên tự tải data về và đặt vào thư mục này.

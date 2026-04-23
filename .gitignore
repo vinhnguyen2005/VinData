@@ -1,0 +1,41 @@
+# Data — không commit CSV/parquet lên GitHub
+data/raw/*.csv
+data/raw/*.parquet
+data/processed/*.parquet
+data/processed/*.csv
+
+# Submission — không commit kết quả thi
+submission/submission.csv
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Môi trường
+.venv/
+env/
+venv/
+.conda/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Models (file lớn — dùng Git LFS nếu cần)
+*.pkl
+*.joblib
+*.h5
+*.pt
