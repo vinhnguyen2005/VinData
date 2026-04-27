@@ -34,18 +34,10 @@ def load_all(raw_dir: str | Path) -> dict[str, pd.DataFrame]:
         if path.exists():
             tables[name] = pd.read_csv(path)
         else:
-            print(f"⚠️  Không tìm thấy: {path}")
+            print(f"Không tìm thấy: {path}")
     return tables
 
 
-def load_sales(raw_dir: str | Path) -> pd.DataFrame:
-    """
-    Load sales.csv (tập train), parse cột Date, set làm index.
-    Trả về DataFrame với DatetimeIndex và 2 cột: Revenue, COGS.
-    """
-    df = pd.read_csv(Path(raw_dir) / "sales.csv", parse_dates=["Date"])
-    df = df.set_index("Date").sort_index()
-    return df
 
 
 def load_orders_full(raw_dir: str | Path) -> pd.DataFrame:
@@ -68,3 +60,8 @@ def load_orders_full(raw_dir: str | Path) -> pd.DataFrame:
           .merge(payments,  on="order_id",  how="left")
           .merge(shipments, on="order_id",  how="left"))
     return df
+
+
+def save(df, name):
+    df.to_csv(f"../data/processed/{name}.csv", index=False)
+    print(f"Đã lưu: data/processed/{name}.csv")
